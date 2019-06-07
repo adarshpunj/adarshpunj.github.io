@@ -404,6 +404,10 @@ expandOpen
 	visibility: visible !important;	
 }
 
+.expandOpen:hover {
+		   transform: scale(1.1); 
+      }
+
 @keyframes expandOpen {
 	0% {
 		transform: scale(1.8);		
